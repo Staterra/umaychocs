@@ -1,0 +1,49 @@
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 30px;
+    height: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('../gambar/home_popular.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    padding: 30px 30px 30px 30px;
+    /* padding: 30px; */
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url('../gambar/shop_about.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about span {
+    font-size: 10px;
+}
+
+.about-title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.about h2 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.bar {
+    height: 30px;
+    background: #8d4e31;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 0px 30px 0px;
+    word-spacing: 3px;
+    line-height: 30px;
+}

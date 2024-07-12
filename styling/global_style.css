@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(to right,#ffcf95,#a36634);
+    overflow-anchor: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 75px;
+    background-image: linear-gradient(to right,#ffcf95,#a36634);
+    transition: height 0.2s ease-in-out;
+}
+
+.header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 10px 0px 10px;
+}
+
+.header .header-logo-button img{
+    width: 200px;
+    height: 85px;
+    padding: 0px;
+}
+
+.header .information-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-button a:hover, button:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+.header .information-button svg{
+    fill: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #8d4e31;
+    transition: height 0.1s ease-in-out;
+}
+
+.navigation a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 3px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 5px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.navigation svg{
+    fill: white;
+}
+
+.navigation a:hover {
+    background-color: #bd783b;
+}
+
+.foooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-image: linear-gradient(to right,#ffcf95,#a36634);
+    transition: height 0.1s ease-in-out;
+    padding: 0px 25px 0px 25px;
+}
+
+.foooter img{
+    width: 200px;
+    height: 85px;
+} 
+
+.social-media-icons {
+    margin-left: 15px;
+}
+
+.foooter .social-media-icons svg {
+    fill: white;
+    padding: 0px 12px 0px 12px;
+}
+
+.social-media-icons a:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+.social-media-icons center {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.information span {
+    display: flex;
+    fill: white;
+    color: white;
+    align-items: center;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 130px;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .navigation a{
+        font-size: 19px;
+        padding: 0px;
+    }
+
+    .header .header-logo-button {
+        margin-top: 15px;
+    }
+    
+    .foooter {
+        padding-bottom: 15px;
+        height: 250px;
+        flex-direction: column;
+    }
+}

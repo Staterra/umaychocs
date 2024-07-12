@@ -1,0 +1,134 @@
+.mini_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('../gambar/home_mini_about.jpg');
+    height: 350px;
+    /* height: 1000px; */
+    background-position: center;
+    padding: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mini_about h1{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0px;
+    color: white;
+}
+
+.mini_about p{
+    color: white;
+    word-spacing: 1px;
+}
+
+.pemisah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: white;
+    padding: 15px;
+    background-color: #8d4e31;
+    transition: height 0.2s ease-in-out;
+}
+
+.reccomendation {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('../gambar/home_popular.jpg');
+    height: auto;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_item span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+}
+
+.popular_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 10px 15px;
+    overflow: hidden;
+    color: white;
+}
+
+.popular_item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.purchase_dkt_rekom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.purchase_dkt_rekom a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* fill: white; */
+    /* color: white; */
+    height: 60px;
+    width: 130px;
+    /* background-color: #bd783b; */
+    /* border-radius: 15px; */
+    /* text-decoration: none; */
+    font-size: 14px;
+    color: beige;
+}
+
+.popular_item span {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.popular_item_desc {
+    margin-top: 15px;
+}
+
+.popular_item_desc p {
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.purchase_dkt_rekom a:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .pemisah{
+        height: 50px;
+    }
+}

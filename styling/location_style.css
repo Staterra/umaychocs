@@ -1,0 +1,63 @@
+.title {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('../gambar/chocolate_bar_best_seller.jpg');
+    height: auto;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.title h1 {
+    margin: 0px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    background-color: #8d4e31;
+    height: 30px;
+}
+
+/* .all-location {
+    height: auto;
+    margin: 0px;
+    padding: 30px;
+    background-color: #573a22;
+    color: white;
+} */
+
+.background {
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url('../gambar/shop_about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.all-location {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+}
+
+.each-location {
+    width: 300px;
+    height: 500px;
+    margin: 0px 10px 0px 10px;
+}
+
+.each-location img {
+    width: 270px;
+    height: 180px;
+}
+
+.note p {
+    padding: 30px;
+    margin: 0px;
+    font-size: 10px;
+    color: white;
+}
